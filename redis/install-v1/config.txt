@@ -1,0 +1,14 @@
+# Redis
+MASTER_HOST=192.168.0.51     
+REDIS_PORT=6379              
+REDIS_PASSWORD=password      
+
+# Redis Sentinel
+SENTINEL_PORT=26379          
+SENTINEL_NAME=mymaster       
+SENTINEL_QUORUM=1            
+SENTINEL_NUMREPLICAS=1       
+
+# Keepalived
+INTERFACE=ens33              
+VIP=192.168.0.55             

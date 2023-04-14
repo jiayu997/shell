@@ -1,0 +1,3 @@
+1. 用office中的execl将IP.CSV打开，然后将要更新polkit的虚拟机和root密码填写进去即可
+2. 拷贝脚本到一台机器(这台机器需要与其他机器都通网)上执行脚本：bash polkit_patch.sh
+3. 执行脚本生成的polkit_path.log内含有此次polkit更新结果
